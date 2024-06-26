@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url("landingpage.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+header {
+  background-color: #3b5998;
+  padding: 10px 0;
+  align-items: start;
+}
+
+.form-container.signup-form {
+  width: 300px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 6px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.container {
+  text-align: center;
+  padding: 60px;
+}
+
+.login h2 {
+  color: white;
+}
+
+a.button {
+  margin-top: 250px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #3b5998;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.form-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  display: inline-block;
+  backdrop-filter: blur(30px);
+}
+
+.form-container h2 {
+  color: #333;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+.form-container.login-form {
+  width: 300px;
+}
+
+.form-container label {
+  margin: 10px 0 5px;
+}
+
+.form-container input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3b5998;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container p {
+  color: #3b5998;
+  margin-top: 10px;
+}
+
+.form-container p a {
+  color: #3b5998;
+  text-decoration: none;
+}
